@@ -1,3 +1,7 @@
+Steps to run program : python kmeans.py
+
+**REPORT ------------------------------------------------------------------------------------------------------------------**
+
 k-means clustering
 
 **1. Introduction to Algorithm**
