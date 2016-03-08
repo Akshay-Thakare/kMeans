@@ -26,17 +26,15 @@ This data will consist of one data point for each country consisting of two feat
 
 The raw data comes directly from the CIA’s World Factbook data estimate for 2012. Formally, we’re collecting the “crude birth rate” and “crude death rate” of each country with known values for both (some minor self-governing principalities had unknown rates). The “crude rate” simply means that the data does not account for anything except pure numbers; there is no compensation for the age distribution and fertility rates. Of course, there are many many issues affecting the birth rate and death rate, but we don’t have the background nor the stamina to investigate their implications here. Indeed, part of the point of studying learning methods is that we want to extract useful information from the data without too much human intervention (in the form of ambient knowledge).
 
-**4.Data set snapshot**
+**4. Results and Discussions**
 
-Here is a plot of the data with some interesting values labeled 
+_For 3 clusters_
 
-![alt tag](http://jeremykun.files.wordpress.com/2013/02/countries-birth-deat-labeled.png)
+Plot of child birth rates per 1000 vs death rate per 1000 across all countries in 2012. Whats interesting is that in developed countries like USA the death rate < birth rate while in developing countries like Afghanistan both the birth rate and death rates are quite high.
 
-**5.Step by Step calculation on that dataset.**
+![alt tag](https://raw.githubusercontent.com/Akshay-Thakare/kMeans/master/figure_1.png)
 
-**6. Results and Discussions**
-
-**7. Conclusion for your problem**
+![alt tag](http://jeremykun.files.wordpress.com/2013/02/countries-birth-deat-labeled.png?w=1800)
 
 
 
